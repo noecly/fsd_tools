@@ -5,7 +5,7 @@
         <router-view></router-view>
       </div>
     </main>
-    <van-tabbar route v-if="!$route.meta.hideTabbar">
+    <van-tabbar route v-if="!$route.meta.hideTabbar" safe-area-inset-bottom>
       <van-tabbar-item to="/" icon="home-o">首页</van-tabbar-item>
       <van-tabbar-item to="/tools" icon="apps-o">工具</van-tabbar-item>
       <van-tabbar-item to="/mine" icon="user-o">我的</van-tabbar-item>
@@ -30,7 +30,6 @@
   justify-content: center; /* 水平居中内容 */
   padding: 16px;
   overflow-y: auto;
-  padding-bottom: 70px; /* 为底部导航栏留出更多空间 */
 }
 
 .content-wrapper {

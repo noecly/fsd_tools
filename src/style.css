@@ -15,6 +15,7 @@ body {
   margin: 0;
   background-color: #f7f8fa; /* 与 App.vue 背景色统一 */
   color: #323233; /* Vant 的默认文本颜色 */
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 /* 移除 Vite 默认的链接和按钮样式，以便 Vant 组件样式生效 */
