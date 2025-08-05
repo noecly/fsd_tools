@@ -1,0 +1,10 @@
+feat: 优化iOS Web App体验和PWA支持
+
+- 适配iOS安全区域:
+  - `index.html`: `viewport` meta标签添加 `viewport-fit=cover`，调整状态栏样式。
+  - `src/App.vue`: `van-tabbar` 添加 `safe-area-inset-bottom`，移除 `main-content` 固定底部内边距。
+  - `src/style.css`: 移除 `body` 上的 `padding-bottom`。
+- 增强PWA支持:
+  - 新增 `public/manifest.webmanifest` 文件。
+- 开发服务器配置:
+  - `vite.config.ts`: 添加 `server.host: true` 允许局域网访问。

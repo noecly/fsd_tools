@@ -5,8 +5,13 @@ import Mine from '../pages/Mine.vue';
 import Calculator from '../pages/tools/Calculator.vue'; // 更新路径
 
 const routes = [
-  {
+    {
     path: '/',
+    name: 'Index',
+    redirect: '/tools/calculator',
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: Home,
   },

@@ -3,7 +3,8 @@
     <van-nav-bar
       title="出口值计算器"
       left-text="返回"
-      left-arrow
+      left-arrow 
+
       @click-left="goBack"
       fixed
       placeholder
@@ -143,7 +144,7 @@ import { useRouter } from 'vue-router';
 import { showNotify } from 'vant';
 
 const router = useRouter();
-const goBack = () => router.back();
+const goBack = () => router.push('/tools');
 
 // --- 通用状态 ---
 const activeTab = ref(0);
