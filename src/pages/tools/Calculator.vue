@@ -266,9 +266,9 @@ const onEightHourSubmit = async () => {
 .calculator-page {
   background-color: #f7f8fa;
 }
-.tab-content {
+/* .tab-content {
   padding: 16px;
-}
+} */
 .submit-button-wrapper {
   margin-top: 24px;
 }
@@ -277,6 +277,7 @@ const onEightHourSubmit = async () => {
 }
 .van-notice-bar {
   margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 .calculator-page :deep(.van-cell-group--inset) {

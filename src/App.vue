@@ -6,7 +6,7 @@
       </div>
     </main>
     <van-tabbar route v-if="!$route.meta.hideTabbar" safe-area-inset-bottom>
-      <van-tabbar-item to="/" icon="home-o">首页</van-tabbar-item>
+      <van-tabbar-item to="/home" icon="home-o">首页</van-tabbar-item>
       <van-tabbar-item to="/tools" icon="apps-o">工具</van-tabbar-item>
       <van-tabbar-item to="/mine" icon="user-o">我的</van-tabbar-item>
     </van-tabbar>
