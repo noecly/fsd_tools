@@ -98,6 +98,15 @@ proxy-groups:
       - "🚀 节点选择"
       - "♻️ 自动选择"
       - "DIRECT"
+  - name: "🎬 Muse AI"
+    type: select
+    include-all-proxies: true
+    filter: ".*"
+    exclude-filter: "(?i)(?:(?:(剩余|流量|套餐|到期|重置|官网|Traffic|Expire)))"
+    proxies:
+      - "🚀 节点选择"
+      - "♻️ 自动选择"
+      - "DIRECT"
   - name: "♻️ 自动选择"
     type: url-test
     include-all-proxies: true
@@ -195,6 +204,9 @@ rules:
   - "DOMAIN-SUFFIX,bntrace.com,🪙 币安"
   - "DOMAIN,zftksc.cdn-settings.appsflyersdk.com,🪙 币安"
   - "DOMAIN,zftksc.launches.appsflyersdk.com,🪙 币安"
+  # muse.ai · 自建规则（社区规则集未收录）
+  - "DOMAIN-SUFFIX,muse.ai,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,museai.com,🎬 Muse AI"
   # 中国 IP · 9640 rules
   - "IP-CIDR,1.0.1.0/24,DIRECT,no-resolve"
   - "IP-CIDR,1.0.2.0/23,DIRECT,no-resolve"
