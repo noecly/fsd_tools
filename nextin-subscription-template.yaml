@@ -207,6 +207,60 @@ rules:
   # muse.ai · 自建规则（社区规则集未收录）
   - "DOMAIN-SUFFIX,muse.ai,🎬 Muse AI"
   - "DOMAIN-SUFFIX,museai.com,🎬 Muse AI"
+  # ---- Meta / Facebook 家族 · 统一走 🎬 Muse AI ----
+  # Facebook 主体
+  - "DOMAIN-SUFFIX,facebook.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,facebook.net,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,facebookmail.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fbworkmail.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fb.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fb.me,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fb.watch,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fb.gg,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fburl.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,m.me,🎬 Muse AI"
+  # Facebook CDN / 静态资源
+  - "DOMAIN-SUFFIX,fbcdn.net,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fbcdn.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fbsbx.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fbsbx.net,🎬 Muse AI"
+  # 追踪 / 像素
+  - "DOMAIN-SUFFIX,fbthirdpartypixel.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fbthirdpartypixel.net,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fbthirdpartypixel.org,🎬 Muse AI"
+  # Messenger
+  - "DOMAIN-SUFFIX,messenger.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,msngr.com,🎬 Muse AI"
+  # Instagram
+  - "DOMAIN-SUFFIX,instagram.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,cdninstagram.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,ig.me,🎬 Muse AI"
+  # Threads
+  - "DOMAIN-SUFFIX,threads.net,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,threads.com,🎬 Muse AI"
+  # Meta 公司站 / Meta AI
+  - "DOMAIN-SUFFIX,meta.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,meta.ai,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,atmeta.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,metaaiusercontent.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,metaaivm.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,llama.com,🎬 Muse AI"
+  # 企业 / 开发者
+  - "DOMAIN-SUFFIX,workplace.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,workplaceusecases.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,accountkit.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,graph.instagram.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,fb.careers,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,facebook.design,🎬 Muse AI"
+  # Oculus / VR
+  - "DOMAIN-SUFFIX,oculus.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,oculuscdn.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,oculusforbusiness.com,🎬 Muse AI"
+  # WhatsApp
+  - "DOMAIN-SUFFIX,whatsapp.com,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,whatsapp.net,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,wa.me,🎬 Muse AI"
+  - "DOMAIN-SUFFIX,whatsappbrand.com,🎬 Muse AI"
   # 中国 IP · 9640 rules
   - "IP-CIDR,1.0.1.0/24,DIRECT,no-resolve"
   - "IP-CIDR,1.0.2.0/23,DIRECT,no-resolve"
